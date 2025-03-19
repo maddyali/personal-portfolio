@@ -4,7 +4,7 @@ import { Linkedin, Mail, Instagram } from "lucide-react";
 export default function Socials() {
   return (
     <>
-      <a href="mailto:maddyoali@gmail.com" className="cursor-pointer">
+      <a href="mailto:maddyoali+career@gmail.com" className="cursor-pointer">
         <Mail />
       </a>
 
@@ -16,7 +16,7 @@ export default function Socials() {
         <Linkedin />
       </a>
       <a
-        href="https://www.instagram.com/alithetechie"
+        href="https://www.instagram.com/builtbyali"
         target="_blank"
         className="cursor-pointer"
       >

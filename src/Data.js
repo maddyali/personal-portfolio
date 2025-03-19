@@ -1,5 +1,7 @@
 import codingresources from "./assets/images/codingresources.png";
 import theshop from "./assets/images/theshop.png";
+import cryptosignal from "./assets/images/cryptosignal.png";
+import setupchamps from "./assets/images/setupchamps.png";
 
 export default {
   skills: [
@@ -40,6 +42,24 @@ export default {
     },
   ],
   projects: [
+    {
+      name: "setup champs",
+      description:
+        "The #1 community for desk setup enthusiasts. In less than 60 seconds you can create an account, start exploring, or share your own setup (because it deserves to be seen).",
+      tools: ["js", "node", "express", "mongodb", "passport", "cloudinary"],
+      img: setupchamps,
+      githubLink: "https://github.com/maddyali/setup-champs",
+      demoLink: "https://setup-champs.onrender.com",
+    },
+    {
+      name: "crypto signal",
+      description:
+        "Crypto Signal is your trusted source for accurate, unbiased crypto insights to help you filter signal from noise.",
+      tools: ["css", "react"],
+      img: cryptosignal,
+      githubLink: "https://github.com/maddyali/crypto-signal",
+      demoLink: "https://crypto-signal-app.netlify.app/",
+    },
     {
       name: "coding resources",
       description:
