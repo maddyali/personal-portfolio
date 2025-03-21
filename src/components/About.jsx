@@ -20,19 +20,30 @@ export default function About() {
             <h2 className="text-2xl font-bold text-primary-dark leading-10 lg:text-3xl lg:text-left lg:ml-10">
               About Me
             </h2>
-
-            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg lg:text-left">
-              I'm a passionate and creative full stack developer fueled entirely
-              by curiosity, iced americanos, and a drive to succeed.
+            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg text-left">
+              I used to be an accountant. The problem? I liked when money went
+              missing. Now before you get any ideas, let me explain. See, it
+              gave me a problem to solve:
             </p>
 
-            <p className="font-semibold italic text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg lg:text-left">
-              I want to build things people love with people that inspire me.
+            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg text-left">
+              • Was it a human error? <br />• A spreadsheet mistake? <br />•
+              Someone cooking the books?
             </p>
-            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg lg:text-left">
-              When I'm not coding, you'll find me shooting hoops, planning world
-              domination, or diving face-first down an internet rabbit hole in
-              pursuit of truth and knowledge.
+
+            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg text-left">
+              It was an introduction to the art of debugging. When I realized
+              software development is just testing, problem solving, and
+              building solutions–I was hooked. Now, instead of tracking down
+              missing money, I track down problems to solve using code.
+            </p>
+
+            <p className="text-sm text-secondary-dark px-2 leading-6 sm:px-10 md:text-lg text-left">
+              When I'm not building, you'll find me shooting hoops, reading with
+              an iced americano in hand, or creating educational content online.
+            </p>
+            <p className="font-semibold italic text-sm px-2 leading-6 sm:px-10 md:text-lg text-left text-secondary-dark">
+              My goal? To build things people love with people that inspire me.
             </p>
           </div>
         </div>
