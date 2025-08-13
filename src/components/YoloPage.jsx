@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 export default function YoloPage() {
   useEffect(() => {
     // Track page view when someone lands on the QR page
