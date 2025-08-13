@@ -1,5 +1,24 @@
 export default function YoloPage() {
+  useEffect(() => {
+    // Track page view when someone lands on the QR page
+    if (window.gtag) {
+      window.gtag("event", "page_view", {
+        page_title: "QR Landing Page",
+        page_location: window.location.href,
+      });
+    }
+  }, []);
+
   const handleClick = () => {
+    // Track button clicks before redirecting
+    if (window.gtag) {
+      window.gtag("event", "click", {
+        event_category: "engagement",
+        event_label: "portfolio_button",
+        value: 1,
+      });
+    }
+
     window.open("https://maddyali.com", "_blank");
   };
 
